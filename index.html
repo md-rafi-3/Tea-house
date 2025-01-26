@@ -24,28 +24,37 @@
 
 background: linear-gradient(180.00deg, rgb(244, 244, 244),rgba(244, 244, 244, 0) 100%);
         }
-
+        
+        
+  
     </style>
 </head>
 <body class="Manrope ">
    <main class="max-w-screen-xl px-1 mx-auto lg:px-28 ">
-    <header class="flex items-center justify-around align-middle mt-28">
-        <div class="">
-            <h1 class="text-6xl font-bold tracking-normal text-left ">
+    <header class="flex flex-col-reverse items-center justify-around mx-auto align-middle mt-28 md:flex-col-reverse lg:flex-row ">
+        <div class="md:w-1/2 lg:w-1/2">
+            <h1 class="text-5xl font-bold text-center md:text-6xl md:text-center lg:text-left">
                 It's good <br>
-                tea time at The <br> Tea House
+                tea time at The
+                Tea House
             </h1>
-            <p class="text-base font-medium tracking-normal text-left mt-7 text-prgb text-[#777777]">
+            <p class="text-base font-medium tracking-normal text-center mt-7 text-prgb text-[#777777] md:text-center lg:text-left">
                 Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
             </p>
-            <button class="bg-gradient-to-r from-orange-500 to-red-500 p-2.5 rounded-md text-white mt-5">Explore More <img class="inline" src="images/arrow.png" alt=""></button>
+            <div class="flex items-start items-center justify-center align-middle md:flex-col md:align-center md:items-center md:justify-center lg:justify-start lg:align-baseline lg:items-start">
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 p-2.5 rounded-md text-white mt-5">Explore More <img class="inline" src="images/arrow.png" alt=""></button>
+            </div>
         </div>
-        <div>
-            <img class="relative" src="images/banner.png" alt="">
-            <div>
+        
+        <!-- image -->
+        <div class="p-3">
+            <div class="relative flex items-center justify-center align-middle"><img  src="images/banner.png" alt=""></div>
+            <!-- card -->
+            <div class="">
                 <img src="images/" alt="">
-                <div class="box-border flex rounded-md shadow-lg shadow-black bg-[white]  w-1/2 p-4 gap-3 relative bottom-24 left-16">
-                    <img src="images/Group 5.png" alt="">
+                <div class="box-border flex rounded-md shadow-lg shadow-black bg-[white]  w-1/2 p-2 gap-3 relative bottom-24 left-20 md:p-4 lg:p-4 ">
+                    <!-- star -->
+                   <div class="flex items-center justify-center align-middle"> <img src="images/Group 5.png" alt=""></div>
                     <div >
                         <h1 class="text-[#1c1c1c] text-3xl font-bold">5.00</h1>
                         <p class="text-base text-[#777777]">Trust Pilot Ratings</p>
@@ -55,7 +64,7 @@ background: linear-gradient(180.00deg, rgb(244, 244, 244),rgba(244, 244, 244, 0)
         </div>
     </header>
     
-    <section class="text-center mt-36">
+    <section class="p-3 text-center mt-36">
         
         <h1 class="text-4xl font-bold text-[#1c1c1c]">Our Featured Products</h1>
         
@@ -63,7 +72,7 @@ background: linear-gradient(180.00deg, rgb(244, 244, 244),rgba(244, 244, 244, 0)
         <!-- card -->
          
         <!-- cntainer -->
-         <div class="flex gap-10 align-middle ajustify-around mt-14">
+         <div class="flex flex-col gap-10 align-middle ajustify-around mt-14 md:flex-row lg:flex-row">
             <!-- 1st -->
              <div class="p-5 text-center bg-gradient">
                <div class="flex justify-center align-middle"> <img class="" src="images/tea-1.png" alt=""></div>
@@ -103,6 +112,27 @@ background: linear-gradient(180.00deg, rgb(244, 244, 244),rgba(244, 244, 244, 0)
                 <p class="text-[#777777] text-base">Creamer could be replaced by fresh milk</p>
              </div>
          </div>
+    </section>
+    <!-- grid-2 -->
+    <section>
+        <!-- flex-div -->
+        <div>
+            <!-- left div -->
+            <div>
+                <!-- 1st -->
+                <div class=""></div>
+                
+                <!-- 2nd -->
+                <div><img src="images/fresh-1.png" alt=""></div>
+                <!-- 3rd -->
+                <div></div>
+                
+                <!-- 4th -->
+                <div><img src="images/fresh-2.png" alt=""></div>
+            </div>
+            
+        </div>
+        
     </section>
     
    </main>
